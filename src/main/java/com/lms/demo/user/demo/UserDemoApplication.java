@@ -1,0 +1,17 @@
+package com.lms.demo.user.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author shital
+ *
+ */
+@SpringBootApplication
+public class UserDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UserDemoApplication.class, args);
+	}
+
+}
