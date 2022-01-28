@@ -43,8 +43,6 @@ public class Tbl_lms_user implements Serializable  {
 
 	
 	@Column(name = "user_last_name")
-	@NotBlank(message = "please specify lastName")
-	
 	private String lastname;
 	
 	@Transient
