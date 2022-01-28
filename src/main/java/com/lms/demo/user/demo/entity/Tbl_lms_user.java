@@ -26,7 +26,7 @@ import com.lms.demo.user.demo.config.UserIdGenerator;
  */
 @Entity(name = "tbl_lms_user")
 
-@JsonIgnoreProperties(value={ "education_ug", "education_pg","comments","lastname","user_visa_status","creation_time","last_mod_time" })
+@JsonIgnoreProperties(value={ "education_ug", "education_pg","comments","lastname","user_visa_status","creation_time","last_mod_time","phonenumber" })
 public class Tbl_lms_user implements Serializable  {
 	private static final long serialVersionUID = -3322113303362981686L;
 	@Id
@@ -43,6 +43,8 @@ public class Tbl_lms_user implements Serializable  {
 
 	
 	@Column(name = "user_last_name")
+	@NotBlank(message = "please specify lastName")
+	
 	private String lastname;
 	
 	@Transient
