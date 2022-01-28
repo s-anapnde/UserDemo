@@ -29,7 +29,7 @@ public class LMSUserEntityConverter {
 		dtoUser.setEducation_ug(lms_user.getEducation_ug());
 		dtoUser.setLinkedin_url(lms_user.getLinkedin_url());
 		dtoUser.setLocation(lms_user.getLocation());
-		dtoUser.setPhone_number(lms_user.getPhone_number());
+		dtoUser.setPhone_number(String.valueOf(lms_user.getPhonenumber()));
 		dtoUser.setTime_zone(lms_user.getTime_zone());
 		dtoUser.setVisa_status(lms_user.getVisa_status());
 		dtoUser.setUser_id(lms_user.getUser_id());

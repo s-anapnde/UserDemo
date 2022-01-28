@@ -28,7 +28,7 @@ import com.lms.demo.user.demo.service.UserDAOService;
  *
  */
 @RestController
-//@JsonInclude(Include.NON_ABSENT)
+
 public class LMSUserController {
 
 	
